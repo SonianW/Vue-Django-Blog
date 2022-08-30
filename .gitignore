@@ -1,3 +1,4 @@
+# ---------- Python ignore configs ----------
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
@@ -127,3 +128,26 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+
+# ---------- Vue ignore configs ----------
+.DS_Store
+node_modules/
+/dist/
+
+# local env files
+.env.local
+.env.*.local
+
+# Log files
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Editor directories and files
+.idea
+.vscode
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw*
